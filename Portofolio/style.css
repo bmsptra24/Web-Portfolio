@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@400;500;600;900&display=swap");
+
+.body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+/* warna */
+.clr-1 {
+  color: #72abf2;
+}
+.clr-2 {
+  color: #ffffff;
+}
+.clr-black {
+  color: #000000;
+}
+.clr-grey {
+  color: rgb(151, 151, 151);
+}
+.bg-blue {
+  background-color: #72abf2;
+}
+.bg-w-blue {
+  background-color: #dbe2ef;
+}
+
+/* font-size */
+.super-judul {
+  font-size: 55px;
+  font-weight: 600;
+}
+.judul {
+  font-size: 55px;
+  font-weight: 600;
+}
+.super-isi {
+  font-size: 23px;
+  font-weight: 500;
+}
+.isi {
+  font-size: 105%;
+}
+.isi-1 {
+  font-size: 115%;
+  font-weight: 500;
+}
+
+/* font-style */
+.bold {
+  font-weight: bold;
+}
+.bold-isi {
+  font-weight: 550;
+}
+
+/* eror */
+.cek {
+  border-style: solid;
+}
+.cek0 {
+  border-style: solid;
+  border-color: transparent;
+}
+
+/* container */
+.main-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.container {
+  width: 100%;
+}
+
+.main-header-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-width: 3px;
+  border-color: #ebebeb;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-style: solid;
+  background-color: white;
+}
+
+.header-container {
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-container {
+  min-height: 90vh;
+}
+
+.about-me-container {
+  min-height: 100vh;
+}
+
+.hobi-container {
+  min-height: 100vh;
+}
+
+.portofolio-container {
+  min-height: 100vh;
+}
+
+.contact-me-container {
+  min-height: 100vh;
+}
+
+.nama-header-container {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.nav-header-container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hitam-abu {
+  color: #4e4e4e;
+}
+
+.nav-item-btn {
+  background-color: transparent;
+  border: 0px;
+}
+
+.moon-container {
+  cursor: pointer;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.menu-container {
+  display: none;
+}
+
+.moon-gelap {
+  display: none;
+}
+.moon-terang {
+  /* display: none; */
+}
+
+/* intro */
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-logo {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.linkedin {
+  cursor: pointer;
+  width: 25px;
+}
+
+.instagram {
+  cursor: pointer;
+  width: 25px;
+}
+
+.github {
+  cursor: pointer;
+  width: 25px;
+}
+
+.intro-isi {
+  width: 450px;
+}
+.container-btn-contactme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 70px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.container-btn-contactme:hover {
+  background-color: #6293ce;
+}
+.btn-contactme {
+  border: 0;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-right: 5px;
+}
+
+.intro-gambar {
+  width: 370px;
+  margin-right: 10%;
+  margin-bottom: 30px;
+}
+.foto-profil {
+  width: 370px;
+}
+@media (min-width: 0px) and (max-width: 1000px) {
+  .main-container {
+    width: 100%;
+    background-color: #ffffff;
+  }
+  .container {
+    min-width: 100%;
+  }
+
+  .header-container {
+    position: fixed;
+    height: 7vh;
+    left: 0;
+    right: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .main-header-container {
+    height: 7vh;
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: -1px;
+    border-width: 3px;
+    border-width: 3px;
+    border-color: #ebebeb;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+  }
+
+  .nama-header-container {
+    flex-grow: 1;
+  }
+
+  .nav-header-container {
+    justify-content: right;
+  }
+  .moon-container {
+    margin-right: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .moon {
+    width: 100%;
+    height: 3vh;
+  }
+
+  .nav-item-hide {
+    display: none;
+  }
+
+  .menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+  }
+
+  .isi {
+    font-size: 2.5vh;
+  }
+
+  .nama-header-container {
+    margin-left: 40px;
+  }
+
+  .intro-kosong {
+    display: none;
+  }
+
+  .intro-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .intro-logo {
+    order: 1;
+    width: 10vw;
+    height: 25vh;
+    margin-top: 10%;
+  }
+  .linkedin,
+  .instagram,
+  .github {
+    width: 7vw;
+  }
+  .instagram {
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+  }
+
+  .intro-gambar {
+    order: 2;
+    width: 70vw;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .foto-profil {
+    width: 100%;
+    height: auto;
+  }
+  .intro-isi {
+    order: 3;
+    width: 90vw;
+    margin-top: 0vh;
+  }
+  .judul {
+    font-size: 11vw;
+  }
+  .isi-1 {
+    font-size: 4vw;
+    font-weight: 500;
+  }
+  .super-isi {
+    font-size: 4.2vw;
+    font-weight: 600;
+  }
+  .container-btn-contactme {
+    width: 40vw;
+    height: 18vw;
+    margin-top: 5vh;
+  }
+}
