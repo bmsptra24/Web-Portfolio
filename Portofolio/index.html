@@ -8,39 +8,55 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <title>Bima Saputra</title>
-  </head>
+    <title>Bima Saputra</title></head
+  >3
   <body class="body">
     <div class="cek9 main-container">
       <div class="cek9 container">
-        <div class="cek main-header-container">
+        <div class="cek9 main-header-container">
+          <div class="tess"></div>
           <div class="cek9 header-container">
             <div class="cek9 nama-header-container bold-isi hitam-abu isi">
               Bima
             </div>
             <div class="cek9 nav-header-container">
               <div class="nav-item nav-item-hide clr-black">
-                <button class="nav-item-btn bold-isi hitam-abu isi">
+                <button
+                  class="nav-item-btn bold-isi hitam-abu isi"
+                  onclick="window.location='';"
+                >
                   Home
                 </button>
               </div>
               <div class="nav-item nav-item-hide clr-black">
-                <button class="nav-item-btn bold-isi hitam-abu isi">
+                <button
+                  onclick="window.location='index.html#about-main-container';"
+                  class="nav-item-btn bold-isi hitam-abu isi"
+                >
                   About
                 </button>
               </div>
               <div class="nav-item nav-item-hide clr-black">
-                <button class="nav-item-btn bold-isi hitam-abu isi">
+                <button
+                  onclick="window.location='index.html#hobi-main-container';"
+                  class="nav-item-btn bold-isi hitam-abu isi"
+                >
                   Hobby
                 </button>
               </div>
               <div class="nav-item nav-item-hide clr-black">
-                <button class="nav-item-btn bold-isi hitam-abu isi">
+                <button
+                  onclick="window.location='index.html#portofolio-main-container';"
+                  class="nav-item-btn bold-isi hitam-abu isi"
+                >
                   Portfolio
                 </button>
               </div>
               <div class="nav-item nav-item-hide clr-black">
-                <button class="nav-item-btn bold-isi hitam-abu isi">
+                <button
+                  onclick="window.location='index.html#contact-me-main-container';"
+                  class="nav-item-btn bold-isi hitam-abu isi"
+                >
                   Contactme
                 </button>
               </div>
@@ -78,7 +94,7 @@
                 />
               </div>
             </div>
-            <div class="menu-container cek9">
+            <div class="menu-container cek9" onclick="munculMenu()">
               <label for="menu">
                 <i class="bi bi-grid menu"
                   ><svg
@@ -93,13 +109,130 @@
                     /></svg
                 ></i>
               </label>
+
               <input
+                style="display: none"
                 type="checkbox"
                 name="menu"
                 id="menu"
-                style="display: none"
+                class="menuclass"
               />
             </div>
+          </div>
+        </div>
+
+        <!-- navbar responsif -->
+        <div class="cek9 nav-responsiv">
+          <div class="cek9 nav-responsiv-isi">
+            <div class="cek9">
+              <svg
+                onclick="window.location='';"
+                class="nav-responsiv-isi-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width=""
+                height=""
+                fill="currentColor"
+                class="bi bi-house-door"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146ZM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5Z"
+                />
+              </svg>
+              Home
+            </div>
+            <div class="cek9">
+              <svg
+                onclick="window.location='index.html#about-main-container'; tutupMenu();"
+                class="nav-responsiv-isi-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width=""
+                height=""
+                fill="currentColor"
+                class="bi bi-person"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"
+                />
+              </svg>
+              About
+            </div>
+            <div class="cek9">
+              <svg
+                onclick="window.location='index.html#hobi-main-container'; tutupMenu();"
+                class="nav-responsiv-isi-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width=""
+                height=""
+                fill="currentColor"
+                class="bi bi-music-note-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"
+                />
+                <path fill-rule="evenodd" d="M12 3v10h-1V3h1z" />
+                <path
+                  d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+              Hobby
+            </div>
+            <div class="cek9">
+              <svg
+                onclick="window.location='index.html#portofolio-main-container'; tutupMenu();"
+                class="nav-responsiv-isi-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width=""
+                height=""
+                fill="currentColor"
+                class="bi bi-images"
+                viewBox="0 0 16 16"
+              >
+                <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+                <path
+                  d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"
+                />
+              </svg>
+              Portfolio
+            </div>
+            <div class="cek9">
+              <svg
+                onclick="window.location='index.html#contact-me-main-container'; tutupMenu();"
+                class="nav-responsiv-isi-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width=""
+                height=""
+                fill="currentColor"
+                class="bi bi-send"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"
+                />
+              </svg>
+              Contactme
+            </div>
+          </div>
+          <div class="cek9 nav-responsiv-close clr-1" onclick="tutupMenu()">
+            <svg
+              class="nav-responsiv-isi-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width=""
+              height=""
+              fill="currentColor"
+              class="bi bi-x"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
           </div>
         </div>
 
@@ -110,11 +243,12 @@
             <!-- linkidln -->
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="100px"
-              height="100px"
+              width=""
+              height=""
               fill="currentColor "
               class="bi bi-linkedin linkedin clr-1"
               viewBox="0 0 16 16"
+              onclick="window.location='https://www.linkedin.com/in/bima-saputra-9b6a89198/' ;"
             >
               <path
                 d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
@@ -123,9 +257,10 @@
 
             <!-- instagram -->
             <svg
+              onclick="window.location='https://www.instagram.com/bmsptra24/';"
               xmlns="http://www.w3.org/2000/svg"
-              width="100px"
-              height="100px"
+              width=""
+              height=""
               fill="currentColor"
               class="bi bi-instagram instagram clr-1"
               viewBox="0 0 16 16"
@@ -137,9 +272,10 @@
 
             <!-- github -->
             <svg
+              onclick="window.location='https://github.com/bmsptra24';"
               xmlns="http://www.w3.org/2000/svg"
-              width="100px"
-              height="100px"
+              width=""
+              height=""
               fill="currentColor"
               class="bi bi-github github clr-1"
               viewBox="0 0 16 16"
@@ -150,7 +286,7 @@
             </svg>
           </div>
           <div class="cek9 intro-isi">
-            <p class="judul intro-hai">Hai, Saya Bima</p>
+            <p class="judul intro-hai clr-black">Hai, Saya Bima</p>
             <p class="super-isi clr-grey">Seorang Mahasiswa</p>
             <p class="clr-grey isi-1">
               Saat ini saya berkuliah di Politeknik Negeri Sriwijaya. Saya
@@ -158,15 +294,20 @@
             </p>
             <br />
             <div class="bg-blue clr-2 container-btn-contactme">
-              <button class="btn-contactme clr-2 isi-1">Contact Me</button>
+              <button
+                onclick="window.location='mailto:bmsptra24.kuliah@gmail.com'"
+                class="btn-contactme clr-2 isi-1"
+              >
+                Contact Me
+              </button>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="19"
-                height="19"
+                width=""
+                height=""
                 fill="currentColor"
                 class="bi bi-send"
                 viewBox="0 0 16 16"
-                style="margin-right: 5px"
+                style="margin-right: 5px; max-width: 10%"
               >
                 <path
                   d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"
@@ -182,11 +323,169 @@
             />
           </div>
         </div>
-        <div class="cek9 about-me-container"></div>
-        <div class="cek9 hobi-container"></div>
+
+        <!-- about me -->
+        <div id="about-main-container" style="height: 4vh; display=none;"></div>
+
+        <div class="cek9 about-me-container">
+          <div class="about-container-1 cek9">
+            <h3 class="clr-black sub-judul">About Me</h3>
+            <p class="about-isi-container-1 isi clr-grey">My Introduction</p>
+          </div>
+          <div class="about-container-2 cek9">
+            <div class="cek9 container-foto-1">
+              <img
+                class="foto-1"
+                src="db/foto-2.png"
+                alt="Foto Bima Saputra - 2"
+              />
+            </div>
+            <div class="cek9 about-container-isi">
+              <h1 class="judul clr-1 about-isi-container-2">
+                Seorang mahasiswa,
+              </h1>
+              <p class="isi-1 clr-grey about-isi-container-3">
+                yang sangat tertarik dengan dunia perkodingan. Saat ini saya
+                sedang menggali ilmu di Kampus Politeknik Negeri Sriwijaya.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- hoby  -->
+        <div id="hobi-main-container" style="height: 4vh; display=none;"></div>
+        <div class="cek9 about-me-container">
+          <div class="about-container-1 cek9" style="margin-bottom: 5vh">
+            <h3 class="clr-black sub-judul">My Hobby</h3>
+            <p class="about-isi-container-1 isi clr-grey">Me when bored</p>
+          </div>
+          <div class="about-container-2 hobi-item-container cek9">
+            <div class="about-container-2 hobi-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="2.5vw"
+                height="2.5vw"
+                fill="currentColor"
+                class="bi bi-music-note-beamed hobi-icon clr-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"
+                />
+                <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z" />
+                <path
+                  d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z"
+                />
+              </svg>
+              <h4 class="clr-black hobi-text-1">Mendengar</h4>
+              <h4 class="clr-black hobi-text-3">Musik</h4>
+              <div class="">
+                <a href="#" class="hobi-text-2 clr-1"
+                  >View More
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.8vw"
+                    height="1.8vw"
+                    fill="currentColor"
+                    class="bi panah bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    /></svg
+                ></a>
+              </div>
+            </div>
+            <div class="about-container-2 hobi-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="2.5vw"
+                height="2.5vw"
+                fill="currentColor"
+                class="bi bi-controller hobi-icon clr-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z"
+                />
+                <path
+                  d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z"
+                />
+              </svg>
+              <h4 class="clr-black hobi-text-1">Bermain</h4>
+              <h4 class="clr-black hobi-text-3">Games</h4>
+              <div class="">
+                <a href="#" class="hobi-text-2 clr-1"
+                  >View More
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.8vw"
+                    height="1.8vw"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    /></svg
+                ></a>
+              </div>
+            </div>
+            <div class="about-container-2 hobi-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="2vw"
+                height="2vw"
+                fill="currentColor"
+                class="bi bi-film hobi-icon clr-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0v6h8V1H4zm8 8H4v6h8V9zM1 1v2h2V1H1zm2 3H1v2h2V4zM1 7v2h2V7H1zm2 3H1v2h2v-2zm-2 3v2h2v-2H1zM15 1h-2v2h2V1zm-2 3v2h2V4h-2zm2 3h-2v2h2V7zm-2 3v2h2v-2h-2zm2 3h-2v2h2v-2z"
+                />
+              </svg>
+              <h4 class="clr-black hobi-text-1">Menonton</h4>
+              <h4 class="clr-black hobi-text-3">Film</h4>
+              <div class="">
+                <a href="#" class="hobi-text-2 clr-1"
+                  >View More
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1.8vw"
+                    height="1.8vw"
+                    fill="currentColor"
+                    class="bi bi-arrow-right-short"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                    /></svg
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- portofolio  -->
+        <div
+          id="portofolio-main-container"
+          style="height: 4vh; display=none;"
+        ></div>
+
         <div class="cek9 portofolio-container"></div>
+
+        <!-- contact me  -->
+        <div
+          id="contact-me-main-container"
+          style="height: 4vh; display=none;"
+        ></div>
+
         <div class="cek9 contact-me-container"></div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
