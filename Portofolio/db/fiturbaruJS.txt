@@ -1,0 +1,53 @@
+const menu = document.querySelector(".nav-responsiv");
+// const body = document.querySelector("*");
+// const header = document.querySelector(".main-header-container");
+// const slider = document.getElementById("slider");
+// const clrBlack = document.getElementsByClassName("subjudul-modeMalam");
+// const colorTextHeader = document.getElementsByClassName("hitam-abu");
+// const hobiItem = document.getElementsByClassName("hobi-item");
+// var swictMode = 0;
+// 0=malam
+
+function munculMenu() {
+  menu.style.bottom = "0";
+}
+function tutupMenu() {
+  menu.style.bottom = "-100vh";
+}
+
+// function modeMalam() {
+//   alert(swictMode);
+//   if (swictMode == 0) {
+//     body.style.backgroundColor = "#102031";
+//     header.style.backgroundColor = "#102031";
+//     header.style.borderColor = "#102031";
+//     header.style.color = "#f1f1f1";
+//     for (let i = 0; i < colorTextHeader.length; i++) {
+//       colorTextHeader[i].style.color = "#adadad";
+//     }
+//     for (let i = 0; i < clrBlack.length; i++) {
+//       clrBlack[i].style.color = "#f1f1f1";
+//     }
+//     for (let i = 0; i < clrBlack.length; i++) {
+//       hobiItem[i].style.boxShadow = "0px 5px 20px 7px transparent";
+//       hobiItem[i].style.backgroundColor = "#142a54";
+//     }
+//     return (swictMode = 1);
+//   } else if (swictMode == 1) {
+//     body.style.backgroundColor = "white";
+//     header.style.backgroundColor = "#white";
+//     header.style.borderColor = "#ebebeb";
+//     header.style.color = "#f1f1f1";
+//     for (let i = 0; i < colorTextHeader.length; i++) {
+//       colorTextHeader[i].style.color = "#4e4e4e";
+//     }
+//     for (let i = 0; i < clrBlack.length; i++) {
+//       clrBlack[i].style.color = "#303030";
+//     }
+//     for (let i = 0; i < clrBlack.length; i++) {
+//       hobiItem[i].style.boxShadow = "0px 5px 20px 7px rgb(227, 227, 227)";
+//       hobiItem[i].style.backgroundColor = "white";
+//     }
+//     return (swictMode = 0);
+//   }
+// }

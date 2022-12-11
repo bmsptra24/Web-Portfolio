@@ -1,9 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@400;500;600;900&display=swap");
 
+/* fitur kedepannya */
+.moon-container {
+  display: none;
+}
+
 .body {
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* warna */
@@ -149,13 +155,6 @@
   color: #4e4e4e;
 }
 
-.nav-item {
-  cursor: pointer;
-}
-.nav-item-btn:hover {
-  color: #000000;
-}
-
 .nav-item-btn {
   background-color: transparent;
   border: 0px;
@@ -169,12 +168,12 @@
   display: none;
 }
 
-/* .moon-gelap {
+.moon-gelap {
   display: none;
 }
 .moon-terang {
-  display: none;
-} */
+  /* display: none; */
+}
 
 .menu-container:hover .intro-container {
   width: 100px;
@@ -252,7 +251,7 @@
 .nav-responsiv {
   display: flex;
   position: fixed;
-  z-index: 20;
+  z-index: 1;
   bottom: -100vh;
   height: 30vh;
   left: 0;
@@ -430,7 +429,7 @@
   font-size: 1.6vw;
 }
 .contact-me-container-isi {
-  margin-left: 3vh;
+  margin-left: 1.2vh;
 }
 
 .portofolio-isi-container-1 {
@@ -496,12 +495,6 @@
 
   .nav-header-container {
     justify-content: right;
-  }
-  .moon-container {
-    margin-right: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
   }
 
   .moon {
@@ -678,7 +671,7 @@
   .container-contact-isi-1 {
     width: 100%;
     height: 42vw;
-    margin-bottom: 17vh;
+    margin-bottom: 7vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -710,5 +703,13 @@
   .callme {
     margin-left: 1vh;
     height: auto;
+  }
+
+  /* fitur kedepannya */
+  .moon-container {
+    margin-right: 20px;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
   }
 }
