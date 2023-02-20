@@ -1,5 +1,5 @@
 <h1>Hi, I'm Bima</h1>
-I am a student at Sriwijaya State Polytechnic and I majored in Informatics Management.
+I am a student at Sriwijaya State Polytechnic and I majored in Informatics Management. And this is my portfolio.
 <br><br><br>
 <h1>How to see it?</h1>
 1. Find "Enviroment" on the right side, then click "github-pages"
